@@ -5,6 +5,6 @@ const messageInput = document.getElementById("message-input");
   }
  });
 function getMessage() {
-    document.getElementById("display-message").innerHTML = messageInput.value;
+    document.getElementById("display-message").innerHTML = messageInput.value.toUpperCase();
     messageInput.value = "" ;
 } 
