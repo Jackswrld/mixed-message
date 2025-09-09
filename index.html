@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Combo&family=Comfortaa:wght@300..700&family=Delius&family=Dosis:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixed message</title>
+</head>
+<body>
+    <div class="container">
+     <div class="message">
+       <p>
+        <h3 class="h3">the message</h3>
+        <div class="border"></div>
+       </p>
+       <p>
+        <label for="message-input">Enter a Message</label>
+       <br>
+       <button class="btn"><i class="fa-regular fa-message"></i></button>
+        <input type="text" id="message-input" placeholder="Type your message here">
+       </p>
+       <p>
+    <button class="btn1 "onclick="getMessage()" >send message</button>
+       </p>
+         <p id="display-message"></p>
+     </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
